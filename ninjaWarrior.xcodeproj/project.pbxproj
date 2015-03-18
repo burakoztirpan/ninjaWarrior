@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63A404F11AB8B6E000F9C640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A404F01AB8B6E000F9C640 /* AppDelegate.swift */; };
+		63A404F31AB8B6E000F9C640 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 63A404F21AB8B6E000F9C640 /* GameScene.sks */; };
+		63A404F51AB8B6E000F9C640 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A404F41AB8B6E000F9C640 /* GameScene.swift */; };
+		63A404F71AB8B6E100F9C640 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A404F61AB8B6E100F9C640 /* GameViewController.swift */; };
+		63A404FA1AB8B6E100F9C640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A404F81AB8B6E100F9C640 /* Main.storyboard */; };
+		63A404FC1AB8B6E100F9C640 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A404FB1AB8B6E100F9C640 /* Images.xcassets */; };
+		63A404FF1AB8B6E100F9C640 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A404FD1AB8B6E100F9C640 /* LaunchScreen.xib */; };
+		63A4050B1AB8B6E100F9C640 /* ninjaWarriorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A4050A1AB8B6E100F9C640 /* ninjaWarriorTests.swift */; };
+		63A405151AB8B74D00F9C640 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A405141AB8B74D00F9C640 /* Warrior.swift */; };
+		63A405171AB8C02700F9C640 /* remmm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A405161AB8C02700F9C640 /* remmm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63A405051AB8B6E100F9C640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A404E31AB8B6E000F9C640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A404EA1AB8B6E000F9C640;
+			remoteInfo = ninjaWarrior;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63A404EB1AB8B6E000F9C640 /* ninjaWarrior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ninjaWarrior.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A404EF1AB8B6E000F9C640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A404F01AB8B6E000F9C640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63A404F21AB8B6E000F9C640 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		63A404F41AB8B6E000F9C640 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		63A404F61AB8B6E100F9C640 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		63A404F91AB8B6E100F9C640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63A404FB1AB8B6E100F9C640 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63A404FE1AB8B6E100F9C640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		63A405041AB8B6E100F9C640 /* ninjaWarriorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ninjaWarriorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A405091AB8B6E100F9C640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A4050A1AB8B6E100F9C640 /* ninjaWarriorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninjaWarriorTests.swift; sourceTree = "<group>"; };
+		63A405141AB8B74D00F9C640 /* Warrior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
+		63A405161AB8C02700F9C640 /* remmm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = remmm.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A404E81AB8B6E000F9C640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A405011AB8B6E100F9C640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63A404E21AB8B6E000F9C640 = {
+			isa = PBXGroup;
+			children = (
+				63A404ED1AB8B6E000F9C640 /* ninjaWarrior */,
+				63A405071AB8B6E100F9C640 /* ninjaWarriorTests */,
+				63A404EC1AB8B6E000F9C640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63A404EC1AB8B6E000F9C640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A404EB1AB8B6E000F9C640 /* ninjaWarrior.app */,
+				63A405041AB8B6E100F9C640 /* ninjaWarriorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63A404ED1AB8B6E000F9C640 /* ninjaWarrior */ = {
+			isa = PBXGroup;
+			children = (
+				63A404F01AB8B6E000F9C640 /* AppDelegate.swift */,
+				63A404F21AB8B6E000F9C640 /* GameScene.sks */,
+				63A404F41AB8B6E000F9C640 /* GameScene.swift */,
+				63A404F61AB8B6E100F9C640 /* GameViewController.swift */,
+				63A404F81AB8B6E100F9C640 /* Main.storyboard */,
+				63A404FB1AB8B6E100F9C640 /* Images.xcassets */,
+				63A404FD1AB8B6E100F9C640 /* LaunchScreen.xib */,
+				63A404EE1AB8B6E000F9C640 /* Supporting Files */,
+				63A405141AB8B74D00F9C640 /* Warrior.swift */,
+				63A405161AB8C02700F9C640 /* remmm.swift */,
+			);
+			path = ninjaWarrior;
+			sourceTree = "<group>";
+		};
+		63A404EE1AB8B6E000F9C640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63A404EF1AB8B6E000F9C640 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63A405071AB8B6E100F9C640 /* ninjaWarriorTests */ = {
+			isa = PBXGroup;
+			children = (
+				63A4050A1AB8B6E100F9C640 /* ninjaWarriorTests.swift */,
+				63A405081AB8B6E100F9C640 /* Supporting Files */,
+			);
+			path = ninjaWarriorTests;
+			sourceTree = "<group>";
+		};
+		63A405081AB8B6E100F9C640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63A405091AB8B6E100F9C640 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63A404EA1AB8B6E000F9C640 /* ninjaWarrior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A4050E1AB8B6E100F9C640 /* Build configuration list for PBXNativeTarget "ninjaWarrior" */;
+			buildPhases = (
+				63A404E71AB8B6E000F9C640 /* Sources */,
+				63A404E81AB8B6E000F9C640 /* Frameworks */,
+				63A404E91AB8B6E000F9C640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ninjaWarrior;
+			productName = ninjaWarrior;
+			productReference = 63A404EB1AB8B6E000F9C640 /* ninjaWarrior.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63A405031AB8B6E100F9C640 /* ninjaWarriorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A405111AB8B6E100F9C640 /* Build configuration list for PBXNativeTarget "ninjaWarriorTests" */;
+			buildPhases = (
+				63A405001AB8B6E100F9C640 /* Sources */,
+				63A405011AB8B6E100F9C640 /* Frameworks */,
+				63A405021AB8B6E100F9C640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63A405061AB8B6E100F9C640 /* PBXTargetDependency */,
+			);
+			name = ninjaWarriorTests;
+			productName = ninjaWarriorTests;
+			productReference = 63A405041AB8B6E100F9C640 /* ninjaWarriorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63A404E31AB8B6E000F9C640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Burak Öztırpan";
+				TargetAttributes = {
+					63A404EA1AB8B6E000F9C640 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					63A405031AB8B6E100F9C640 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 63A404EA1AB8B6E000F9C640;
+					};
+				};
+			};
+			buildConfigurationList = 63A404E61AB8B6E000F9C640 /* Build configuration list for PBXProject "ninjaWarrior" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63A404E21AB8B6E000F9C640;
+			productRefGroup = 63A404EC1AB8B6E000F9C640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A404EA1AB8B6E000F9C640 /* ninjaWarrior */,
+				63A405031AB8B6E100F9C640 /* ninjaWarriorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63A404E91AB8B6E000F9C640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A404FF1AB8B6E100F9C640 /* LaunchScreen.xib in Resources */,
+				63A404FC1AB8B6E100F9C640 /* Images.xcassets in Resources */,
+				63A404F31AB8B6E000F9C640 /* GameScene.sks in Resources */,
+				63A404FA1AB8B6E100F9C640 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A405021AB8B6E100F9C640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A404E71AB8B6E000F9C640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A404F51AB8B6E000F9C640 /* GameScene.swift in Sources */,
+				63A404F71AB8B6E100F9C640 /* GameViewController.swift in Sources */,
+				63A405171AB8C02700F9C640 /* remmm.swift in Sources */,
+				63A405151AB8B74D00F9C640 /* Warrior.swift in Sources */,
+				63A404F11AB8B6E000F9C640 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A405001AB8B6E100F9C640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A4050B1AB8B6E100F9C640 /* ninjaWarriorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63A405061AB8B6E100F9C640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63A404EA1AB8B6E000F9C640 /* ninjaWarrior */;
+			targetProxy = 63A405051AB8B6E100F9C640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63A404F81AB8B6E100F9C640 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63A404F91AB8B6E100F9C640 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63A404FD1AB8B6E100F9C640 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63A404FE1AB8B6E100F9C640 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63A4050C1AB8B6E100F9C640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63A4050D1AB8B6E100F9C640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63A4050F1AB8B6E100F9C640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ninjaWarrior/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63A405101AB8B6E100F9C640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ninjaWarrior/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63A405121AB8B6E100F9C640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ninjaWarriorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ninjaWarrior.app/ninjaWarrior";
+			};
+			name = Debug;
+		};
+		63A405131AB8B6E100F9C640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ninjaWarriorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ninjaWarrior.app/ninjaWarrior";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A404E61AB8B6E000F9C640 /* Build configuration list for PBXProject "ninjaWarrior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A4050C1AB8B6E100F9C640 /* Debug */,
+				63A4050D1AB8B6E100F9C640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A4050E1AB8B6E100F9C640 /* Build configuration list for PBXNativeTarget "ninjaWarrior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A4050F1AB8B6E100F9C640 /* Debug */,
+				63A405101AB8B6E100F9C640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63A405111AB8B6E100F9C640 /* Build configuration list for PBXNativeTarget "ninjaWarriorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A405121AB8B6E100F9C640 /* Debug */,
+				63A405131AB8B6E100F9C640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63A404E31AB8B6E000F9C640 /* Project object */;
+}
